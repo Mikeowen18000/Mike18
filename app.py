@@ -114,8 +114,5 @@ def main():
         prediction = model.predict(input_variables)
         
 
-        return render_template('main.html', pred=pred
-        
-        
-        tion[0])
+        return render_template('main.html', pred=predtion[0])
         app.run(debug=True)
